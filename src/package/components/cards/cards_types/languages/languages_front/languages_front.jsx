@@ -60,7 +60,7 @@ const Content = ({ hasLanguage, languagesNode, handleAddButtonClick, classes }) 
             <ProfileCardFrontTypography classes={{ container: classes.typography }}>
                 <FormattedMessage
                     id="Languages.front.content"
-                    defaultMessage="I speak {languagesNode}"
+                    defaultMessage="تسلط به زبان های {languagesNode}"
                     values={{ languagesNode }}
                 />
             </ProfileCardFrontTypography>

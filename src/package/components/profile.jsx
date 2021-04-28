@@ -14,6 +14,7 @@ import { styles } from './profile_styles';
 import en from '../i18n/en.json';
 import fr from '../i18n/fr.json';
 import tr from '../i18n/tr.json';
+import fa from '../i18n/fa.json';
 
 import '../styles/lib/slick-carousel/slick-theme.css';
 import '../styles/lib/slick-carousel/slick.css';
@@ -35,12 +36,13 @@ if (!Intl.PluralRules) {
 const messages = {
     en,
     fr,
-    tr
+    tr,
+    fa
 };
 const useStyles = createUseStyles(styles);
 
 const DEFAULT_OPTIONS ={
-    locale: 'en',
+    locale: 'fa',
     customization: {
         imageHeader: {
             url: 'https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp',
@@ -164,7 +166,7 @@ const WithProvidersDeveloperProfile = ({
     const builtTheme = useMemo(() => buildTheme(customization?.theme), [customization?.theme]);
 
     const providerMessages = useMemo(
-        () => ({ ...(parentIntl?.messages || {}), ...(messages[locale] || messages.en) }),
+        () => ({ ...(parentIntl?.messages || {}), ...(messages[locale] || messages.fa) }),
         [parentIntl, locale]
     );
 

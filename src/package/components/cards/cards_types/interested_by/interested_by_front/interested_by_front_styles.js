@@ -32,7 +32,7 @@ export const styles = (theme) => {
             marginLeft: -spacing
         },
         typography: {
-            fontSize: 36,
+            fontSize: 24,
             lineHeight: 1.3,
             textOverflow: 'ellipsis',
             wordWrap: 'break-word',

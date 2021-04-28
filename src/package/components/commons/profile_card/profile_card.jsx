@@ -186,7 +186,9 @@ const ProfileCardComponent = ({
                     >
                         <EditAction customEditAction={customEditAction} setEditDialogOpened={setEditDialogOpened} />
                     </motion.div>
-                )}
+                )} 
+                
+               
                 <ProfileCardContext.Provider value={contextData}>
                     {children}
                     <AnimatePresence>
@@ -200,6 +202,7 @@ const ProfileCardComponent = ({
                         )}
                     </AnimatePresence>
                 </ProfileCardContext.Provider>
+            
             </Card>
         </>
     );

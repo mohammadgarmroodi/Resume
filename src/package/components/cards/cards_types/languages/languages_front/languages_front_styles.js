@@ -26,7 +26,7 @@ export const styles = (theme) => {
         [createScreenWidthMediaQuery('max-width', theme.screenSizes.small)]: {
             typography: {
                 maxWidth: '80%',
-                fontSize: 40
+                fontSize: 24
             }
         }
     };

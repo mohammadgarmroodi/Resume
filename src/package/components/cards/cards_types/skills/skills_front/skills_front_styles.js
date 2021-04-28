@@ -15,7 +15,7 @@ export const styles = (theme) => {
             width: 'auto'
         },
         typography: {
-            fontSize: 36,
+            fontSize: 24,
             lineHeight: 1.3
         },
         noSkill: {

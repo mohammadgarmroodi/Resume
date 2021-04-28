@@ -54,8 +54,8 @@ export const styles = (theme) => {
             fontSize: 42,
             lineHeight: 1.3,
             [QUERY_CARD_MARGIN_PADDING]: {
-                fontSize: 36,
-                maxHeight: 36 * 1.3 * 3
+                fontSize: 24,
+                maxHeight: 24 * 1.3 * 3
             },
             [QUERY_EXTRA_SMALL]: {
                 fontSize: 24,

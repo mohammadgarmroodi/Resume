@@ -10,26 +10,24 @@
         "location": {
             "address": "2712 Broadway St",
             "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
+            "city": "مشهد",
+            "countryCode": "IR",
             "region": "California"
         },
         "profiles": [
             {
                 "network": "Twitter",
-                "username": "john",
+                "username": "MohamadGri",
                 "url": "http://twitter.com/john"
             }
         ]
     },
     "work": [
         {
-            "name": "Samsung Engineering",
-            "position": "3D Cad Engineer",
+            "position": "PhotoShop,illustrator",
             "website": "http://company.com",
             "startDate": "2014-01-01",
             "summary": "Description...",
-            "location": "Paris, France",
             "highlights": ["Started the company"]
         },
         {
@@ -63,20 +61,11 @@
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        },
-        {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
+            "institution": "دانشگاه آزاد اسلامی واحد مشهد",
+            "area": "فناوری اطلاعات (IT)",
+            "studyType": "لیسانس",
+            "startDate": "1394-07-01",
+            "endDate": "1398-11-01",
             "gpa": "4.0",
             "courses": ["DB1101 - Basic SQL"]
         }
@@ -106,64 +95,42 @@
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "Angular",
+            "name": "React Native",
             "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 100,
+            "keywords": ["ANDROID", "Javascript"]
         },
         {
-            "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Firebase",
-            "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Java",
+            "level": "Mid-Level",
+            "value": 50,
+            "keywords": ["Android", "Java"]
         }
+     
     ],
-    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }, { "language": "Italien", "value": 15, "fluency": "Native speaker" } ],
+    "languages": [{ "language": "English", "value": 70}, 
+        { "language": "Arabic", "value": 30 } ],
     "interests": [
         {
-            "name": "France europe gif by nike football",
+            "name": "Football",
             "gifUrl": "https://media1.giphy.com/media/3oD3YooLLYg0AfOPdK/giphy-downsized.gif?cid=f7fb5bbaegu1ofs48lty41dyowqsfo0wq9qq8h4czot7rwm1&rid=giphy-downsized.gif",
-            "id": "afa5739f-f868-464e-a1aa-18f5a3ff4e2b",
-            "gifUser": {
-                "name": "Nike Football",
-                "profileUrl": "https://giphy.com/nikefootball/",
-                "isVerified": true,
-                "profileAvatarUrl": "https://media1.giphy.com/avatars/nikefootball/vPyZcrShcXY8.jpg"
-            }
+            "id": "afa5739f-f868-464e-a1aa-18f5a3ff4e2b"
+            
+        },
+          {
+            "name": "Swimming",
+            "gifUrl": "https://media.giphy.com/media/l2Je6HrCWMzM635bW/giphy.gif",
+            "id": "afa5739f-f868-464e-a1aa-18f5a3ff4e2b"
+           
         },
         {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
+            "name": "Travel",
+            "gifUrl": "https://media.giphy.com/media/l41YnKSInZIQxa2ly/giphy.gif"
         },
 
         {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
-        },
-        {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
-        },
-        {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
+            "name": "Movies",
+            "gifUrl": "https://media.giphy.com/media/VxbP9tLeKzazm/giphy.gif"
         }
     ],
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
@@ -268,7 +235,7 @@
         "sound": {
             "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
         },
-        "interestedBy": "Angular, la blochain et les chatons."
+        "interestedBy": "BlockChain,Backend Tech (Node JS),Electron"
     },
     "resumeCustomization": {
         "imageHeader": {

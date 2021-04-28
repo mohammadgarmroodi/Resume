@@ -51,9 +51,15 @@ const GifsFrontComponent = ({ data, handleAddButtonClick }) => {
                 <ProfileCardActions>
                     <ProfileCardButton onClick={handleButtonClick} overrideColor="light">
                         <FormattedMessage id="Gifs.front.action" defaultMessage="See all hobbies" />
+                   
                     </ProfileCardButton>
+                    
                 </ProfileCardActions>
+                
             )}
+              <span style={{display:"flex",justifyContent:"center"}} className="d-flex justify-content-center w-100 bg-danger">
+                    برای نمایش گیف ها باید فیلترشکن خود را روشن کنید
+                </span> 
         </GifsSidesCommons>
     );
 };

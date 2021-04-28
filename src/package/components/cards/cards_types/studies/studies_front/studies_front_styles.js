@@ -14,7 +14,7 @@ export const styles = (theme) => {
         typography: {
             overflow: 'hidden',
             minHeight: 'fit-content',
-            fontSize: 36,
+            fontSize: 24,
             lineHeight: 1.1,
             textOverflow: 'ellipsis',
             display: '-webkit-box',

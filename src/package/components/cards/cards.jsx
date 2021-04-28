@@ -25,12 +25,10 @@ const CARD_TYPE_MAPPING = {
     basics: BasicsCard,
     projects: ProjectsCard,
     language: LanguagesCard,
-    dreamjob: DreamJobCard,
     gifs: GifsCard,
     experiences: ExperiencesCard,
     studies: StudiesCard,
     skills: SkillsCard,
-    soundtrack: SoundtrackCard,
     interestedBy: InterestedByCard
 };
 

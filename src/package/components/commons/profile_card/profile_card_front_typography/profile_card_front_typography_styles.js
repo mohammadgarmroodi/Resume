@@ -13,7 +13,7 @@ export const styles = (theme) => {
         container: ({ variant, overrideColor }) => ({
             color: getHexFromPaletteColor(theme, overrideColor || getColorsFromCardVariant(theme, variant).color),
             fontWeight: 700,
-            fontSize: 64,
+            fontSize: 24,
             lineHeight: 1.1,
             margin: spacing * 3,
             [createScreenWidthMediaQuery('max-width', screenSizes.small)]: {
