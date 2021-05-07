@@ -27,6 +27,10 @@
             "position": "html"
         }, {
             "position": "css"
+        },{
+            "position": "Javascript"
+        },{
+            "position": "Git"
         }, {
             "position": "Bootstrap"
         },
