@@ -60,7 +60,7 @@ export const UserInformations = () => {
                     }}
                     component="h4"
                 >
-                    {data.basics?.summary}
+                  FrontEnd Developer
                 </Typography>
                 {showContactInformations && (isEditing || hasContactInformations) && (
                     <ContactInfos contactInformations={contactInformations} />

@@ -21,14 +21,6 @@ const VisaFieldComponent = ({ value, toggleValue, classes: receivedClasses = {} 
             }}
             variant="outlined"
             color="primary"
-            title={
-                <Typography>
-                    <FormattedMessage
-                        id="Basics.editDialog.visaSponsorship"
-                        defaultMessage="I require a visa sponsorship"
-                    />
-                </Typography>
-            }
             value={value}
             onClick={toggleValue('visaSponsorship')}
             onChange={toggleValue('visaSponsorship')}

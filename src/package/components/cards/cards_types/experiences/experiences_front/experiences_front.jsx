@@ -59,9 +59,9 @@ const ExperiencesFrontComponent = ({ data, handleAddButtonClick }) => {
                     />
                 );
             } else {
-                builder.push(
-                    <FormattedMessage id="Experience.front.title.stillEmployed" defaultMessage="Still employed" />
-                );
+                // builder.push(
+                //     <FormattedMessage id="Experience.front.title.stillEmployed" defaultMessage="Still employed" />
+                // );
             }
         } else if (!['endDate', 'startDate'].some((key) => !moment.isMoment(firstExperience?.[key]))) {
             const { startDate } = firstExperience;
@@ -104,6 +104,7 @@ const ExperiencesFrontComponent = ({ data, handleAddButtonClick }) => {
 const Content = ({ hasWork, title, handleAddButtonClick, classes }) => {
     const [isTypographyTruncated, setIsTypographyTruncated] = useState(true);
     const typographyReference = useRef();
+    
 
     useEffect(() => {
         const element = typographyReference.current;
@@ -115,14 +116,25 @@ const Content = ({ hasWork, title, handleAddButtonClick, classes }) => {
     if (hasWork) {
         return (
             <div className={classes.textsContainer}>
-                <ProfileCardFrontTypography
-                    ref={typographyReference}
-                    classes={{
-                        container: cn(classes.typography, isTypographyTruncated && classes.truncatedTypography)
-                    }}
-                >
-                    {title}
-                </ProfileCardFrontTypography>
+               <p>
+                   مسلط به فریمورک های:
+               </p>
+
+               <ul>
+                   <li>
+                       React
+                   </li>
+                   <li>
+                       React Native
+                   </li>  
+                   <li>
+                     Next js
+                   </li> 
+                      <li>
+                       Java (Android)
+                   </li>
+               </ul>
+
             </div>
         );
     }

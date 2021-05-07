@@ -23,7 +23,7 @@ const AvatarComponent = ({ src, displayedName }) => {
             <div className={cn(classes.imageContainer, classes.imageContainer)}>
                 <img
                     className={cn(classes.image, receivedGlobalClasses.image)}
-                    src={pictureSource}
+                    src={"https://i.ibb.co/SKSD59V/photo-2018-01-25-23-07-18.jpg"}
                     alt={displayedName}
                 />
             </div>

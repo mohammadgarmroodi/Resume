@@ -66,7 +66,7 @@ const ProjectsFrontComponent = ({ data, handleAddButtonClick }) => {
                     <ProfileCardButton onClick={handleButtonClick}>
                         <FormattedMessage
                             id="Projects.front.action"
-                            defaultMessage="See {count} project{count, plural, one {} other {s}}"
+                            defaultMessage="مشاهده {count} پروژه{count, plural, one {} other {s}}"
                             values={{
                                 count: data.projects?.length
                             }}

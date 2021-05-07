@@ -27,59 +27,15 @@ const FooterComponent = () => {
 
     if (useSmallLayout) {
         return (
-            <div className={cn(classes.container, useSmallLayout && classes.smallLayoutContainer)}>
-                <div className={classes.wldLogoGithubLogoContainer}>
-                    <a
-                        className={classes.logoLink}
-                        href="https://welovedevs.com"
-                        target="_blank"
-                        rel="noreferrer noopener"
-                    >
-                        <Logo className={classes.logo} />
-                    </a>
-                    <Tooltip
-                        title={
-                            <FormattedMessage
-                                id="Footer.github.tooltip"
-                                defaultMessage="Create your own developer profile!"
-                            />
-                        }
-                    >
-                        <a
-                            className={classes.githubLink}
-                            href="https://github.com/welovedevs/developer-profile"
-                            target="_bank"
-                            rel="noreferer noopener"
-                        >
-                            <GithubLogo className={classes.githubLogo} />
-                        </a>
-                    </Tooltip>
-                </div>
+            <div style={{justifyContent:"center"}} className={cn(classes.container, useSmallLayout && classes.smallLayoutContainer)}>
                 <ShareLinks useSmallLayout />
             </div>
         );
     }
 
     return (
-        <div className={classes.container}>
-            <a className={classes.logoLink} href="https://welovedevs.com" target="_blank" rel="noreferrer noopener">
-                <Logo className={classes.logo} />
-            </a>
+        <div style={{justifyContent:"center"}} className={classes.container}>
             <ShareLinks />
-            <Tooltip
-                title={
-                    <FormattedMessage id="Footer.github.tooltip" defaultMessage="Create your own developer profile!" />
-                }
-            >
-                <a
-                    className={classes.githubLink}
-                    href="https://github.com/welovedevs/developer-profile"
-                    target="_bank"
-                    rel="noreferer noopener"
-                >
-                    <GithubLogo className={classes.githubLogo} />
-                </a>
-            </Tooltip>
         </div>
     );
 };

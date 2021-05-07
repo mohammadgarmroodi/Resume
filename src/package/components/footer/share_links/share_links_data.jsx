@@ -14,33 +14,23 @@ export const SHARE_LINKS_DATA = {
         tooltipTranslation: (
             <FormattedMessage
                 id="Footer.shareLinks.shareOnTooltip"
-                defaultMessage="Share on {platform}"
+                defaultMessage="Find me on {platform}"
                 values={{ platform: 'Twitter' }}
             />
         ),
-        getLink: ({ translatedMessage }) => `https://twitter.com/intent/tweet?text=${translatedMessage}`
+        getLink: ({ translatedMessage }) => `https://twitter.com/MohamadGri`
     },
-    facebook: {
-        icon: FacebookIcon,
-        tooltipTranslation: (
-            <FormattedMessage
-                id="Footer.shareLinks.shareOnTooltip"
-                defaultMessage="Share on {platform}"
-                values={{ platform: 'Facebook' }}
-            />
-        ),
-        getLink: ({ link }) => `https://www.facebook.com/sharer/sharer.php?u=${encodeURI(link)}`
-    },
+   
     linkedIn: {
         icon: LinkedInIcon,
         tooltipTranslation: (
             <FormattedMessage
                 id="Footer.shareLinks.shareOnTooltip"
-                defaultMessage="Share on {platform}"
+                defaultMessage="Find me on {platform}"
                 values={{ platform: 'LinkedIn' }}
             />
         ),
-        getLink: ({ link }) => `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURI(link)}`
+        getLink: ({ link }) => `https://www.linkedin.com/in/mohamad-garmrodi-060992163`
     },
     copyShareUrl: {
         icon: (props) => (

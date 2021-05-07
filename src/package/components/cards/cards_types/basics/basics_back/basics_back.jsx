@@ -64,53 +64,7 @@ const BasicsBackComponent = ({ data, handleAddButtonClick }) => {
                 hide: false,
                 value: descriptionContent
             },
-            visaSponsorship: {
-                hide: !existsAndNotEmpty(visaSponsorship),
-                value: (
-                    <span className={classes.bold}>
-                        <FormattedMessage
-                            id="Basics.Back.VisaSponsorship"
-                            defaultMessage="I require a visa sponsorship"
-                        />
-                    </span>
-                )
-            },
-            work: {
-                title: <FormattedMessage id="Basics.Back.Work.Title" defaultMessage="Work" />,
-                hide: !experienceYears && !existsAndNotEmpty(contractTypes) && !existsAndNotEmpty(searchState),
-                value: (
-                    <>
-                        <ExperienceYears experienceYears={experienceYears} codeExperienceYears={codeExperienceYears} />
-                        <CodeExperienceYears
-                            experienceYears={experienceYears}
-                            codeExperienceYears={codeExperienceYears}
-                        />
-                        <OtherExperienceYears
-                            otherExperienceYears={otherExperienceYears}
-                            codeExperienceYears={codeExperienceYears}
-                        />
-                        <br />
-                        <ContractType contractTypes={contractTypes} />
-                        <br />
-                        <JobSearchState searchState={searchState} />
-                    </>
-                )
-            },
-            codingYears: {
-                title: <FormattedMessage id="Basics.Back.CodingYears.title" defaultMessage="Experience" />,
-                hide: Number.isNaN(Number(codingYears)),
-                value: <CodingYears codingYears={codingYears} />
-            },
-            studies: {
-                title: <FormattedMessage id="Basics.Back.StudiesLevel.Title" defaultMessage="Training" />,
-                hide: !studiesLevel,
-                value: <StudiesLevel studiesLevel={studiesLevel} />
-            },
-            codingReason: {
-                title: <FormattedMessage id="Basics.Back.CodingReason.Title" defaultMessage="Why i code" />,
-                hide: !codingReason,
-                value: <span>{codingReason}</span>
-            }
+          
         }),
         [
             currentCityName,

@@ -33,10 +33,8 @@ const SeeProjectDetailComponent = ({ color, project }) => {
                 handleProfileCardHasDialogOpened
             />
             <AnimatedUnderlinedButton color={color} onClick={setDialogOpened}>
-                {!isEditing && <EyeIcon className={classes.icon} />}
                 {isEditing && <EditIcon className={classes.fillIcon} />}
                 <Typography classes={{ container: classes.detailTypography }} color="primary">
-                    {!isEditing && <FormattedMessage id="Projects.details.seemore" defaultMessage="See more" />}
                     {isEditing && <FormattedMessage id="Main.lang.edit" defaultMessage="Edit" />}
                 </Typography>
             </AnimatedUnderlinedButton>
