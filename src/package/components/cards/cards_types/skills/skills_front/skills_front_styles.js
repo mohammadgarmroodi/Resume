@@ -41,7 +41,7 @@ export const styles = (theme) => {
             },
             typography: {
                 maxWidth: 'unset',
-                fontSize: 28
+                fontSize: 20
             }
         }
     };
