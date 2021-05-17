@@ -108,7 +108,7 @@ const Content = ({
             overrideColor={overrideColor}
         >
             <FormattedMessage id="InterestedBy.front.content" defaultMessage="Interested by:" />
-            <div className={classes.interestedByValue}>{interestedBy}</div>
+            <div style={{textAlign:"left"}} className={classes.interestedByValue}>{interestedBy}</div>
         </ProfileCardFrontTypography>
     );
 };
