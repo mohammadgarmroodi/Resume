@@ -18,7 +18,7 @@ jssinstance.setup({ insertionPoint: 'jss-insertion-point' });
 
 export const theme = createMuiTheme({
     ...DEFAULT_THEME,
-    spacing: 8,
+    spacing: 7,
     palette: Object.entries(DEFAULT_THEME.palette).reduce((acc, [name, values]) => {
         const accCopy = acc;
         accCopy[name].main = values[500];
