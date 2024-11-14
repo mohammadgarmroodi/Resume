@@ -26,6 +26,9 @@ export const theme = createMuiTheme({
     }, DEFAULT_THEME.palette)
 });
 
+
+
+
 const jssStyleNode = document.createComment('insertion-point-jss');
 const muiStyleNode = document.createComment('mui-insertion-point');
 document.head.insertBefore(jssStyleNode, document.head.firstChild);
